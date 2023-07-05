@@ -1,5 +1,5 @@
 import React from "react";
-import '../../../CSS/Navbar/nav.css'
+import '../../../CSS/Sections/HeroSec.css'
 import { FaEye } from 'react-icons/fa'
 import { FiSearch } from 'react-icons/fi'
 import { GoPlay } from 'react-icons/go'
@@ -9,17 +9,12 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 // import a from 'react-dom'
 
-function FirstSection() {
+function HeroSection() {
 
 
     return (
         <>
-            <div id='mainheroImage'>
-                {/* <div className='heroImage' >
-            <img
-              src={home}
-             />
-          </div> */}
+            <section id='mainheroImage'>
                 <div id='herotexts'>
                     <div>
                         <button className='btn' id='priceteg'> $1,999,000</button>
@@ -36,26 +31,26 @@ function FirstSection() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id='searchbox'>
-                <ButtonGroup >
-                    <button id='sellbutton' >Sell</button>
-                    <button id='rentbutton'>Rent</button>
-                </ButtonGroup>
-                <div id='searchcard'>
-                    <div id='searchbuttoon'>
-                        <FiSearch size={20} />
-                        <input className='searchinput' placeholder='Search your propery' />
-                    </div>
-                    <div id='leftside-buttons'>
-                        <button className='filter'> <BiFilter size={25} /> Filter</button>
-                        <button className='find'>Search</button>
+                <div className="container" id='searchbox'>
+                    <ButtonGroup >
+                        <button id='sellbutton' >Sell</button>
+                        <button id='rentbutton'>Rent</button>
+                    </ButtonGroup>
+                    <div id='searchcard'>
+                        <div id='searchbuttoon'>
+                            <FiSearch size={20} />
+                            <input className='searchinput' placeholder='Search your propery' />
+                        </div>
+                        <div id='leftside-buttons'>
+                            <button className='filter'> <BiFilter size={25} /> Filter</button>
+                            <button className='find'>Search</button>
 
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 }
 
-export default FirstSection;
+export default HeroSection;

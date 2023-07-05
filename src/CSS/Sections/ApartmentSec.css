@@ -1,0 +1,95 @@
+#view_appartment {
+  background: rgb(0, 0, 0, 0.4) url("../../assets/assets/Category_BG.jpg")
+    no-repeat padding-box;
+  background-blend-mode: darken;
+  min-width: 600px;
+  width: 600px;
+  height: 400px;
+  background-size: 600px 400px;
+  position: relative;
+  margin-top: -50px;
+  /* margin-bottom: 50px; */
+}
+#apartment_all_content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  
+}
+#appartment_text {
+  width: 80%;
+  color: #fff;
+  position: relative;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.view_apart {
+  justify-content: center;
+  color: #000;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  width: 60%;
+  padding: 10px 20px;
+}
+.aprt_cards {
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  /* overflow-x: scroll; */
+}
+#main_aprt_card {
+  background-color: var(--primary-background);
+  border: none;
+  border-radius: 10px;
+  width: 242px;
+  height: 282px;
+}
+#apart_icon {
+  margin: 25px;
+}
+.solo_icon {
+  color: var(--primary-color);
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+}
+#apart_name {
+  margin-left: 10px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-16) / var(--unnamed-line-spacing-22)
+    var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--text-color-282f39);
+  text-align: left;
+  font: normal normal bold 16px/22px Manrope;
+  letter-spacing: 0px;
+  color: #282f39;
+  opacity: 1;
+}
+.apart_card_content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+#propertie_count {
+  font: var(--unnamed-font-style-normal) normal normal 14px/19px
+    var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #282f39c2;
+  opacity: 1;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+}

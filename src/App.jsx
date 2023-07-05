@@ -1,5 +1,5 @@
 // import './App.css';
-import FirstSection from './Components/HomePage/Sections/FirstSection';
+import Home from './Components/HomePage';
 import Nav from "./Components/Navbar/Nav";
 
 function App() {
@@ -7,8 +7,7 @@ function App() {
     <>
 
       <Nav />
-
-      <FirstSection/>
+      <Home />
     </>
   );
 }

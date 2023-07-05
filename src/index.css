@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
+
 :root {
-  --primary-color: #087C7C;
+  --primary-color: #087c7c;
+  --primary-sell: #e8aa42;
+  --primary-font: "Manrope", sans-serif;
+  --primary-background: #F4F5F4;
 }
+/* body{
+  overflow-x: hidden;
+} */

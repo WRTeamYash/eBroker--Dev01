@@ -4,6 +4,7 @@ import logoname from '../../assets/eBroker.svg';
 import '../../CSS/Navbar/nav.css';
 import { RiUserSmileLine } from 'react-icons/ri'
 import Dropdown from 'react-bootstrap/Dropdown';
+// import Link from "react-dom";
 
 
 
@@ -14,7 +15,7 @@ const Nav = () => {
         <nav className="navbar header navbar-expand-lg navbar-dark"> 
           <div className="container-fluid">
             <div className="left-side">
-              <a className="navbar-brand" href="/">
+              <a className="navbar-brand" to="/">
                 <img src={logo} alt="Logo" className="logo" />
                 <img src={logoname} alt="Logo" className="logo2" />
               </a>
@@ -26,7 +27,7 @@ const Nav = () => {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/">Home</a>
+                    <a className="nav-link active" aria-current="page" to="/">Home</a>
                   </li>
                   <Dropdown>
                     <Dropdown.Toggle menuVariant='dark' id="dropdown-basic">
@@ -51,10 +52,10 @@ const Nav = () => {
                     </Dropdown.Menu>
                   </Dropdown>
                   <li className="nav-item">
-                    <a className="nav-link active" href="/">Contact Us</a>
+                    <a className="nav-link active" to="/">Contact Us</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link active" href="/">About Us</a>
+                    <a className="nav-link active" to="/">About Us</a>
                   </li>
                 </ul>
               </div>
@@ -74,7 +75,7 @@ const Nav = () => {
                     </Dropdown.Menu>
                   </Dropdown>
                   <li className="nav-item">
-                    <a className="nav-link active" href="/"> <RiUserSmileLine size={20} className='icon' />
+                    <a className="nav-link active" to="/"> <RiUserSmileLine size={20} className='icon' />
                       Login/Register</a>
                   </li>
                   <li className="nav-item">
