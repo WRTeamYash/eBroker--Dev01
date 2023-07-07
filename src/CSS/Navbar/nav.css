@@ -1,8 +1,8 @@
 .header {
   padding-top: 15px;
-  z-index: 2;
+  z-index: 6;
   position: sticky !important;
-  top: 0;
+  /* padding-top: 50px; */
 }
 .navbar-brand {
   display: flex;

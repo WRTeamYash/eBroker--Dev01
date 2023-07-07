@@ -1,14 +1,30 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-// import SwiperCore, { Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import "../../../CSS/Sections/ApartmentSec.css";
 import { FaEye } from "react-icons/fa";
 import { MdOutlineVilla } from "react-icons/md";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-// SwiperCore.use([Pagination]);
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
 
+// import './styles.css';
+
+// import required modules
+import { FreeMode, Pagination } from 'swiper/modules';
 const ApparttmentSection = () => {
+    const renderBullet = (index, className) => {
+        return `<span class="${className}" style="background-color: #087c7c;
+        outline: 1px solid #000;
+        font-size: 20px;
+        padding: 8px;
+        border: 2px solid #fff;"></span>`;
+    };
+    
+
 
     return (
         <section id='apartments'>
@@ -26,11 +42,20 @@ const ApparttmentSection = () => {
                 </div>
                 <div className='aprt_cards'>
                     <Swiper
-                        slidesPerView={3.5}
-                        spaceBetween={50}
-                        pagination={{ clickable: true }}    
+                        slidesPerView={4.5}
+                        spaceBetween={30}
+                        freeMode={true}
+                        pagination={{
+                            clickable: true,
+                            renderBullet: renderBullet
+                        }}
+                        modules={[FreeMode, Pagination]}
+                        // className="mySwiper"
+                        style={{
+                            width: "1200px ", height: "330px"
+                        }}
                     >
-                        <SwiperSlide>
+                        <SwiperSlide style={{ width: '350px', margin: '0' }}>
                             <Card id='main_aprt_card'>
                                 <Card.Body>
                                     <div className='apart_card_content'>
@@ -45,7 +70,7 @@ const ApparttmentSection = () => {
                                 </Card.Body>
                             </Card>
                         </SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide style={{ width: '350px', margin: '0' }}>
                             <Card id='main_aprt_card'>
                                 <Card.Body>
                                     <div className='apart_card_content'>
@@ -60,7 +85,52 @@ const ApparttmentSection = () => {
                                 </Card.Body>
                             </Card>
                         </SwiperSlide>
-                        <SwiperSlide>
+                        <SwiperSlide style={{ width: '350px', margin: '0' }}>
+                            <Card id='main_aprt_card'>
+                                <Card.Body>
+                                    <div className='apart_card_content'>
+                                        <div id='apart_icon'>
+                                            <MdOutlineVilla size={40} className='solo_icon' />
+                                        </div>
+                                        <div id='apart_name'>
+                                            Villa
+                                            <div id='propertie_count'>22 Properties</div>
+                                        </div>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </SwiperSlide>
+                        <SwiperSlide style={{ width: '350px', margin: '0' }}>
+                            <Card id='main_aprt_card'>
+                                <Card.Body>
+                                    <div className='apart_card_content'>
+                                        <div id='apart_icon'>
+                                            <MdOutlineVilla size={40} className='solo_icon' />
+                                        </div>
+                                        <div id='apart_name'>
+                                            Villa
+                                            <div id='propertie_count'>22 Properties</div>
+                                        </div>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </SwiperSlide>
+                        <SwiperSlide style={{ width: '350px', margin: '0' }}>
+                            <Card id='main_aprt_card'>
+                                <Card.Body>
+                                    <div className='apart_card_content'>
+                                        <div id='apart_icon'>
+                                            <MdOutlineVilla size={40} className='solo_icon' />
+                                        </div>
+                                        <div id='apart_name'>
+                                            Villa
+                                            <div id='propertie_count'>22 Properties</div>
+                                        </div>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </SwiperSlide>
+                        <SwiperSlide style={{ width: '350px', margin: '0' }}>
                             <Card id='main_aprt_card'>
                                 <Card.Body>
                                     <div className='apart_card_content'>
