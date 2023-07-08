@@ -18,9 +18,8 @@
     align-items: flex-start;
     gap: 10px;
     position: relative;
-    left: 120px;
     /* margin-right: 20px; */
   }
   .most_fav_slider{
-    margin: 3% 5% 0 5%;
+    margin: 3% 0% 0 0%;
   }

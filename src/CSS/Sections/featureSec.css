@@ -1,6 +1,6 @@
 #feature {
   background-color: var(--primary-background);
-  height: 120vh;
+  height: 130vh;
   position: relative;
   bottom: 17vh;
 }
@@ -9,7 +9,7 @@
 }
 #main_features {
   position: relative;
-  top: 120px;
+  top: 6rem;
 }
 .feature_header {
   display: flex;
@@ -22,6 +22,7 @@
   flex-direction: row;
   align-items: flex-start;
   gap: 10px;
+  left: 0;
   /* margin-right: 20px; */
 }
 #text_header {
@@ -29,96 +30,89 @@
 }
 #feature_cards {
   position: relative;
-  top: 140px;
+  top: 100px;
   display: flex;
   flex-direction: row;
   gap: 20px;
   margin-top: 15px;
 }
 #main_card {
-  width: 20rem;
+  width: 24rem;
   border-radius: 12px;
 }
 #card_img {
   border-radius: 12px 12px 0 0;
 }
-.top_button {
+.feture_tag {
   background: var(--primary-color);
+  padding: 5px;
   border-radius: 4px;
   opacity: 1;
   border: none;
-  cursor: pointer;
+  /* cursor: pointer; */
   color: #ffffff;
   position: absolute;
   top: 15px;
 }
-.top_likebutton {
-  /* background: var(--primary-color) ;     */
+.like_tag {
+  padding: 5px;
   background: white;
   height: 35px;
   border-radius: 50%;
   opacity: 1;
   border: none;
-  cursor: pointer;
   color: #000;
   position: absolute;
   top: 10px;
   right: 10px;
 }
-.down_button {
+.sell_teg {
   background: var(--primary-sell);
   border-radius: 5px;
   opacity: 1;
   border: none;
-  cursor: pointer;
+  /* cursor: pointer; */
   color: #ffffff;
   position: absolute;
-  top: 175px;
-  width: 58px;
+  padding: 0 16px;
+  top: 220px;
+  width: 65px;
 }
-.down_text {
+.price_teg {
   position: absolute;
-  top: 165px;
+  top: 200px;
   right: 10px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-16) / var(--unnamed-line-spacing-22)
-    var(--unnamed-font-family-manrope);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--card-color-ffffff);
-  /* text-align: right; */
   font: normal normal bold 16px/22px Manrope;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
 }
-#card_mainbody {
-  margin-top: 5px;
+#feature_card_mainbody {
   display: flex;
-  /* align-items: baseline; */
+  align-items: center;
   flex-direction: row;
   gap: 5px;
   height: 25px;
-  width: 70px;
+  width: 100%;
   color: var(--primary-color);
 }
-.text_mainbody {
-  font-size: 15px;
+.feture_body_title {
+  font-size: 18px;
 }
-#card_middletext {
-  /* color: var(--primary-color); */
-  font: normal normal bold 16px/22px Manrope;     
+#feature_card_middletext{
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
 }
-div#card_middletext p{
-  font: var(--unnamed-font-style-normal) normal normal 14px/19px var(--unnamed-font-family-manrope);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  text-align: left;
+div#feature_card_middletext p{
   font: normal normal normal 14px/19px Manrope;
   letter-spacing: 0px;
   color: #282F39C2;
   opacity: 1;
+  margin: 0;
 }
-div#card_footer.card-footer {
-  padding: 16px 16px;
+div#feature_card_footer.card-footer {
+  /* padding: 16px 16px; */
   border-radius: 0 0 12px 12px;
   background-color: #ffffff;
   display: flex;

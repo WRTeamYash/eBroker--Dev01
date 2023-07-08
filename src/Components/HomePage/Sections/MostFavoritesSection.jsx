@@ -1,9 +1,6 @@
 import React from 'react'
 import "../../../CSS/Sections/MostFavorites.css"
 import { Card } from 'react-bootstrap';
-import { FaEye } from "react-icons/fa";
-import { MdOutlineVilla } from "react-icons/md";
-
 import cardImg from '../../../assets/assets/Featured_List_1.jpg'
 import { FiArrowRightCircle, FiCloudDrizzle } from 'react-icons/fi'
 import { AiOutlineHeart } from 'react-icons/ai'
@@ -64,36 +61,36 @@ const MostFavoritesSection = () => {
                         modules={[FreeMode, Pagination]}
                         // className="mySwiper"
                         style={{
-                            width: "1500px ", height: "500px", 
-                            borderRadius: "10px"   
+                            width: "1600px ", height: "500px",
+                            borderRadius: "10px"
                         }}
                     >
                         <SwiperSlide style={{ width: '450px', margin: '0' }}>
                             <Card id='main_card'>
                                 <Card.Img variant="top" id='card_img' src={cardImg} />
                                 <Card.Body>
-                                    <button className='top_button'>
+                                    <span className='feture_tag'>
                                         Feature
-                                    </button>
-                                    <button className='top_likebutton'>
+                                    </span>
+                                    <span className='like_tag'>
                                         <AiOutlineHeart size={25} />
-                                    </button>
-                                    <button className='down_button'>
+                                    </span>
+                                    <span className='sell_teg'>
                                         Sell
-                                    </button>
-                                    <p className='down_text'>
+                                    </span>
+                                    <span className='price_teg'>
                                         $1,999,000 / USD
-                                    </p>
+                                    </span>
 
                                     <div>
-                                        <div id='card_mainbody'>
-                                            <BiHomeSmile size={18} />
-                                            <p className='text_mainbody'> Home </p>
+                                        <div id='feature_card_mainbody'>
+                                            <BiHomeSmile size={23} />
+                                            <span className='feture_body_title'> Home </span>
                                         </div>
-                                        <div id='card_middletext'>
-                                            <h6>
+                                        <div id='feature_card_middletext'>
+                                            <span>
                                                 Luxury villa in Rego Park
-                                            </h6>
+                                            </span>
                                             <p>
                                                 California City, CA, USA
                                             </p>
@@ -101,7 +98,7 @@ const MostFavoritesSection = () => {
                                     </div>
                                 </Card.Body>
 
-                                <Card.Footer id='card_footer'>
+                                <Card.Footer id='feature_card_footer'>
                                     <div className='footer_body'>
                                         <div id='footer_content'>
                                             <RiHotelBedLine size={22} />
@@ -131,28 +128,28 @@ const MostFavoritesSection = () => {
                             <Card id='main_card'>
                                 <Card.Img variant="top" id='card_img' src={cardImg} />
                                 <Card.Body>
-                                    <button className='top_button'>
+                                    <span className='feture_tag'>
                                         Feature
-                                    </button>
-                                    <button className='top_likebutton'>
+                                    </span>
+                                    <span className='like_tag'>
                                         <AiOutlineHeart size={25} />
-                                    </button>
-                                    <button className='down_button'>
+                                    </span>
+                                    <span className='sell_teg'>
                                         Sell
-                                    </button>
-                                    <p className='down_text'>
+                                    </span>
+                                    <span className='price_teg'>
                                         $1,999,000 / USD
-                                    </p>
+                                    </span>
 
                                     <div>
-                                        <div id='card_mainbody'>
-                                            <BiHomeSmile size={18} />
-                                            <p className='text_mainbody'> Home </p>
+                                        <div id='feature_card_mainbody'>
+                                            <BiHomeSmile size={23} />
+                                            <span className='feture_body_title'> Home </span>
                                         </div>
-                                        <div id='card_middletext'>
-                                            <h6>
+                                        <div id='feature_card_middletext'>
+                                            <span>
                                                 Luxury villa in Rego Park
-                                            </h6>
+                                            </span>
                                             <p>
                                                 California City, CA, USA
                                             </p>
@@ -160,7 +157,7 @@ const MostFavoritesSection = () => {
                                     </div>
                                 </Card.Body>
 
-                                <Card.Footer id='card_footer'>
+                                <Card.Footer id='feature_card_footer'>
                                     <div className='footer_body'>
                                         <div id='footer_content'>
                                             <RiHotelBedLine size={22} />
@@ -190,28 +187,28 @@ const MostFavoritesSection = () => {
                             <Card id='main_card'>
                                 <Card.Img variant="top" id='card_img' src={cardImg} />
                                 <Card.Body>
-                                    <button className='top_button'>
+                                    <span className='feture_tag'>
                                         Feature
-                                    </button>
-                                    <button className='top_likebutton'>
+                                    </span>
+                                    <span className='like_tag'>
                                         <AiOutlineHeart size={25} />
-                                    </button>
-                                    <button className='down_button'>
+                                    </span>
+                                    <span className='sell_teg'>
                                         Sell
-                                    </button>
-                                    <p className='down_text'>
+                                    </span>
+                                    <span className='price_teg'>
                                         $1,999,000 / USD
-                                    </p>
+                                    </span>
 
                                     <div>
-                                        <div id='card_mainbody'>
-                                            <BiHomeSmile size={18} />
-                                            <p className='text_mainbody'> Home </p>
+                                        <div id='feature_card_mainbody'>
+                                            <BiHomeSmile size={23} />
+                                            <span className='feture_body_title'> Home </span>
                                         </div>
-                                        <div id='card_middletext'>
-                                            <h6>
+                                        <div id='feature_card_middletext'>
+                                            <span>
                                                 Luxury villa in Rego Park
-                                            </h6>
+                                            </span>
                                             <p>
                                                 California City, CA, USA
                                             </p>
@@ -219,7 +216,7 @@ const MostFavoritesSection = () => {
                                     </div>
                                 </Card.Body>
 
-                                <Card.Footer id='card_footer'>
+                                <Card.Footer id='feature_card_footer'>
                                     <div className='footer_body'>
                                         <div id='footer_content'>
                                             <RiHotelBedLine size={22} />
@@ -249,28 +246,28 @@ const MostFavoritesSection = () => {
                             <Card id='main_card'>
                                 <Card.Img variant="top" id='card_img' src={cardImg} />
                                 <Card.Body>
-                                    <button className='top_button'>
+                                    <span className='feture_tag'>
                                         Feature
-                                    </button>
-                                    <button className='top_likebutton'>
+                                    </span>
+                                    <span className='like_tag'>
                                         <AiOutlineHeart size={25} />
-                                    </button>
-                                    <button className='down_button'>
+                                    </span>
+                                    <span className='sell_teg'>
                                         Sell
-                                    </button>
-                                    <p className='down_text'>
+                                    </span>
+                                    <span className='price_teg'>
                                         $1,999,000 / USD
-                                    </p>
+                                    </span>
 
                                     <div>
-                                        <div id='card_mainbody'>
-                                            <BiHomeSmile size={18} />
-                                            <p className='text_mainbody'> Home </p>
+                                        <div id='feature_card_mainbody'>
+                                            <BiHomeSmile size={23} />
+                                            <span className='feture_body_title'> Home </span>
                                         </div>
-                                        <div id='card_middletext'>
-                                            <h6>
+                                        <div id='feature_card_middletext'>
+                                            <span>
                                                 Luxury villa in Rego Park
-                                            </h6>
+                                            </span>
                                             <p>
                                                 California City, CA, USA
                                             </p>
@@ -278,7 +275,7 @@ const MostFavoritesSection = () => {
                                     </div>
                                 </Card.Body>
 
-                                <Card.Footer id='card_footer'>
+                                <Card.Footer id='feature_card_footer'>
                                     <div className='footer_body'>
                                         <div id='footer_content'>
                                             <RiHotelBedLine size={22} />
@@ -308,28 +305,28 @@ const MostFavoritesSection = () => {
                             <Card id='main_card'>
                                 <Card.Img variant="top" id='card_img' src={cardImg} />
                                 <Card.Body>
-                                    <button className='top_button'>
+                                    <span className='feture_tag'>
                                         Feature
-                                    </button>
-                                    <button className='top_likebutton'>
+                                    </span>
+                                    <span className='like_tag'>
                                         <AiOutlineHeart size={25} />
-                                    </button>
-                                    <button className='down_button'>
+                                    </span>
+                                    <span className='sell_teg'>
                                         Sell
-                                    </button>
-                                    <p className='down_text'>
+                                    </span>
+                                    <span className='price_teg'>
                                         $1,999,000 / USD
-                                    </p>
+                                    </span>
 
                                     <div>
-                                        <div id='card_mainbody'>
-                                            <BiHomeSmile size={18} />
-                                            <p className='text_mainbody'> Home </p>
+                                        <div id='feature_card_mainbody'>
+                                            <BiHomeSmile size={23} />
+                                            <span className='feture_body_title'> Home </span>
                                         </div>
-                                        <div id='card_middletext'>
-                                            <h6>
+                                        <div id='feature_card_middletext'>
+                                            <span>
                                                 Luxury villa in Rego Park
-                                            </h6>
+                                            </span>
                                             <p>
                                                 California City, CA, USA
                                             </p>
@@ -337,7 +334,7 @@ const MostFavoritesSection = () => {
                                     </div>
                                 </Card.Body>
 
-                                <Card.Footer id='card_footer'>
+                                <Card.Footer id='feature_card_footer'>
                                     <div className='footer_body'>
                                         <div id='footer_content'>
                                             <RiHotelBedLine size={22} />
@@ -367,28 +364,28 @@ const MostFavoritesSection = () => {
                             <Card id='main_card'>
                                 <Card.Img variant="top" id='card_img' src={cardImg} />
                                 <Card.Body>
-                                    <button className='top_button'>
+                                    <span className='feture_tag'>
                                         Feature
-                                    </button>
-                                    <button className='top_likebutton'>
+                                    </span>
+                                    <span className='like_tag'>
                                         <AiOutlineHeart size={25} />
-                                    </button>
-                                    <button className='down_button'>
+                                    </span>
+                                    <span className='sell_teg'>
                                         Sell
-                                    </button>
-                                    <p className='down_text'>
+                                    </span>
+                                    <span className='price_teg'>
                                         $1,999,000 / USD
-                                    </p>
+                                    </span>
 
                                     <div>
-                                        <div id='card_mainbody'>
-                                            <BiHomeSmile size={18} />
-                                            <p className='text_mainbody'> Home </p>
+                                        <div id='feature_card_mainbody'>
+                                            <BiHomeSmile size={23} />
+                                            <span className='feture_body_title'> Home </span>
                                         </div>
-                                        <div id='card_middletext'>
-                                            <h6>
+                                        <div id='feature_card_middletext'>
+                                            <span>
                                                 Luxury villa in Rego Park
-                                            </h6>
+                                            </span>
                                             <p>
                                                 California City, CA, USA
                                             </p>
@@ -396,7 +393,7 @@ const MostFavoritesSection = () => {
                                     </div>
                                 </Card.Body>
 
-                                <Card.Footer id='card_footer'>
+                                <Card.Footer id='feature_card_footer'>
                                     <div className='footer_body'>
                                         <div id='footer_content'>
                                             <RiHotelBedLine size={22} />
@@ -422,6 +419,7 @@ const MostFavoritesSection = () => {
                                 </Card.Footer>
                             </Card>
                         </SwiperSlide>
+
                     </Swiper>
                 </div>
             </div>

@@ -9,20 +9,28 @@
   position: relative;
   margin-left: 10%;
   top: 300px;
+  /* font-family: var(--primary-font) */
   /* width: 30%; */
 }
 #priceteg {
   color: #ffffff;
   background-color: var(--primary-color);
-  border: none;
-  height: 80px;
-  width: 250px;
-  font-size: 36px;
-  /* size: 20%; */
+  font-family: var(--primary-font);
+  font-size: 40px;
+  line-height: 55px;
+}
+#hero_headlines{
+  margin-top: 10px;
+  font-family: var(--primary-font);
+  font-weight: 800;
+  font-size: 56px;
+
 }
 #specifiaction {
-  font-size: 25px;
-  /* font: var(--primary-font); */
+  font-family: var(--primary-font);
+  font-size: 24px;
+  line-height: 
+  36px;
 }
 #viewall_hero_prop {
   padding-top: 20px;
@@ -57,7 +65,7 @@
   bottom: 10vh;
   z-index: 5;
 }
-#sellbutton {
+.sellbutton {
   border: none;
   color: #ffffff;
   top: 781px;
@@ -81,6 +89,21 @@
   border-radius: 0px 8px 0px 0px;
   opacity: 1;
 }
+/* #rentbutton:hover  {
+  border: none;
+  top: 781px;
+  left: 611px;
+  width: 192px;
+  height: 70px;
+  color: #ffffff;
+  background: var(--primary-color);
+  border-radius: 0px 8px 0px 0px;
+  opacity: 1;
+}
+#rentbutton:hover .sellbutton {
+  color: #000;
+  background-color: #ffffff;
+} */
 .card {
   border-radius: none;
 }

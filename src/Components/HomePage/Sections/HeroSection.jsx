@@ -45,9 +45,9 @@ function HeroSection() {
                 >
                     <div id='herotexts'>
                         <div>
-                            <button className='btn' id='priceteg'> $1,999,000</button>
-                            <h3 >Serene Haven Retreat</h3>
-                            <p id='specifiaction'>Bedrooms: 5, Bathrooms: 4, Balcony: 2, Pool: 1</p>
+                            <span className='btn' id='priceteg'> $1,999,000</span>
+                            <h1 id="hero_headlines">Serene Haven Retreat</h1>
+                            <span id='specifiaction'>Bedrooms: 5, Bathrooms: 4, Balcony: 2, Pool: 1</span>
                         </div>
                         <div>
 
@@ -103,7 +103,7 @@ function HeroSection() {
                 </HeroSlider>
                 <div className="container" id='searchbox'>
                     <ButtonGroup >
-                        <button id='sellbutton' >Sell</button>
+                        <button className='sellbutton' >Sell</button>
                         <button id='rentbutton'>Rent</button>
                     </ButtonGroup>
                     <div id='searchcard'>

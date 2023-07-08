@@ -1,0 +1,15 @@
+#footer{
+    background-color: #282F39;
+    height: 60vh;
+    color: white;
+}
+#main_footer{
+    margin:  0 8% 0 8%;
+}
+#footer_logo{
+    
+}
+.footer_content{
+    position: relative;
+    top: 4rem;
+}

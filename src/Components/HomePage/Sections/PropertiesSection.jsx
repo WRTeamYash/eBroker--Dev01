@@ -34,373 +34,372 @@ const PropertiesSection = () => {
 
                     </div>
                 </div>
-                <div className='container'>
-                    <div id='prop_cards'>
-                        <div className='cards_sec'>
-                            <div id='prop_cards_left'>
-                                <Card id='main_prop_card'>
-                                    <div>
-                                        <Card.Img variant="top" id='prop_card_img' src={cardImg} />
-                                    </div>
-                                    <div>
-                                        <Card.Body>
-                                            <button className='prop_top_button'>
-                                                Feature
-                                            </button>
-                                            <button className='prop_top_likebutton'>
-                                                <AiOutlineHeart size={25} />
-                                            </button>
-                                            <button className='prop_down_button'>
-                                                Sell
-                                            </button>
-                                            <p className='prop_down_text'>
-                                                $1,999,000 / USD
-                                            </p>
+                <div id='prop_cards'>
+                    <div className='cards_sec'>
+                        <div id='prop_cards_left'>
+                            <Card id='main_prop_card'>
+                                <div>
+                                    <Card.Img variant="top" id='prop_card_img' src={cardImg} />
+                                </div>
+                                <div>
+                                    <Card.Body id='main_card_body'>
+                                        <span className='prop_feature'>
+                                            Feature
+                                        </span>
+                                        <span className='prop_like'>
+                                            <AiOutlineHeart size={25} />
+                                        </span>
+                                        <span className='prop_sell'>
+                                            Sell
+                                        </span>
+                                        <span className='prop_price'>
+                                            $1,999,000 / USD
+                                        </span>
 
-                                            <div>
-                                                <div id='prop_card_mainbody'>
-                                                    <BiHomeSmile size={18} />
-                                                    <p className='text_mainbody'> Home </p>
-                                                </div>
-                                                <div id='card_middletext'>
-                                                    <h6>
-                                                        Luxury villa in Rego Park
-                                                    </h6>
-                                                    <p>
-                                                        California City, CA, USA
-                                                    </p>
-                                                </div>
+                                        <div>
+                                            <div id='prop_card_mainbody'>
+                                                <BiHomeSmile size={23} />
+                                                <span className='body_title'> House </span>
                                             </div>
-                                            <Card.Footer id='card_footer'>
-                                                <div className='footer_body'>
-                                                    <div id='footer_content'>
-                                                        <RiHotelBedLine size={22} />
-                                                        <p className='text_footer'> 3 Bedrooms </p>
-                                                    </div>
-                                                    <div id='footer_content'>
-                                                        <RiBuilding3Line size={22} />
-                                                        <p className='text_footer'> 1200 Sqft </p>
-                                                    </div>
-
-                                                </div>
-                                                <div className='footer_body'>
-                                                    <div id='footer_content'>
-                                                        <FiCloudDrizzle size={22} />
-                                                        <p className='text_footer'> 4 Bathrooms </p>
-                                                    </div>
-                                                    <div id='footer_content'>
-                                                        <RiParkingBoxLine size={22} />
-                                                        <p className='text_footer'> 2 Parking </p>
-                                                    </div>
-
-                                                </div>
-                                            </Card.Footer>
-                                        </Card.Body>
-                                    </div>
-                                </Card>
-                                <Card id='main_prop_card'>
-                                    <div>
-                                        <Card.Img variant="top" id='prop_card_img' src={cardImg} />
-                                    </div>
-                                    <div>
-                                        <Card.Body>
-                                            <button className='prop_top_button'>
-                                                Feature
-                                            </button>
-                                            <button className='prop_top_likebutton'>
-                                                <AiOutlineHeart size={25} />
-                                            </button>
-                                            <button className='prop_down_button'>
-                                                Sell
-                                            </button>
-                                            <p className='prop_down_text'>
-                                                $1,999,000 / USD
-                                            </p>
-
-                                            <div>
-                                                <div id='prop_card_mainbody'>
-                                                    <BiHomeSmile size={18} />
-                                                    <p className='text_mainbody'> Home </p>
-                                                </div>
-                                                <div id='card_middletext'>
-                                                    <h6>
-                                                        Luxury villa in Rego Park
-                                                    </h6>
-                                                    <p>
-                                                        California City, CA, USA
-                                                    </p>
-                                                </div>
+                                            <div id='prop_card_middletext'>
+                                                <span>
+                                                    Luxury villa in Rego Park
+                                                </span>
+                                                <p>
+                                                    California City, CA, USA
+                                                </p>
                                             </div>
-                                            <Card.Footer id='card_footer'>
-                                                <div className='footer_body'>
-                                                    <div id='footer_content'>
-                                                        <RiHotelBedLine size={22} />
-                                                        <p className='text_footer'> 3 Bedrooms </p>
-                                                    </div>
-                                                    <div id='footer_content'>
-                                                        <RiBuilding3Line size={22} />
-                                                        <p className='text_footer'> 1200 Sqft </p>
-                                                    </div>
+                                        </div>
+                                        <Card.Footer id='prop_card_footer'>
+                                            <div className='footer_body'>
+                                                <div id='footer_content'>
+                                                    <RiHotelBedLine size={25} />
+                                                    <span className='text_footer'> 3 Bedrooms </span>
+                                                </div>
+                                                <div id='footer_content'>
+                                                    <RiBuilding3Line size={25} />
+                                                    <span className='text_footer'> 1200 Sqft </span>
+                                                </div>
 
-                                                </div>
-                                                <div className='footer_body'>
-                                                    <div id='footer_content'>
-                                                        <FiCloudDrizzle size={22} />
-                                                        <p className='text_footer'> 4 Bathrooms </p>
-                                                    </div>
-                                                    <div id='footer_content'>
-                                                        <RiParkingBoxLine size={22} />
-                                                        <p className='text_footer'> 2 Parking </p>
-                                                    </div>
-
-                                                </div>
-                                            </Card.Footer>
-                                        </Card.Body>
-                                    </div>
-                                </Card>
-                                <Card id='main_prop_card'>
-                                    <div>
-                                        <Card.Img variant="top" id='prop_card_img' src={cardImg} />
-                                    </div>
-                                    <div>
-                                        <Card.Body>
-                                            <button className='prop_top_button'>
-                                                Feature
-                                            </button>
-                                            <button className='prop_top_likebutton'>
-                                                <AiOutlineHeart size={25} />
-                                            </button>
-                                            <button className='prop_down_button'>
-                                                Sell
-                                            </button>
-                                            <p className='prop_down_text'>
-                                                $1,999,000 / USD
-                                            </p>
-                                            <div>
-                                                <div id='prop_card_mainbody'>
-                                                    <BiHomeSmile size={18} />
-                                                    <p className='text_mainbody'> Home </p>
-                                                </div>
-                                                <div id='card_middletext'>
-                                                    <h6>
-                                                        Luxury villa in Rego Park
-                                                    </h6>
-                                                    <p>
-                                                        California City, CA, USA
-                                                    </p>
-                                                </div>
                                             </div>
-                                            <Card.Footer id='card_footer'>
-                                                <div className='footer_body'>
-                                                    <div id='footer_content'>
-                                                        <RiHotelBedLine size={22} />
-                                                        <p className='text_footer'> 3 Bedrooms </p>
-                                                    </div>
-                                                    <div id='footer_content'>
-                                                        <RiBuilding3Line size={22} />
-                                                        <p className='text_footer'> 1200 Sqft </p>
-                                                    </div>
+                                            <div className='footer_body'>
+                                                <div id='footer_content'>
+                                                    <FiCloudDrizzle size={25} />
+                                                    <span className='text_footer'> 4 Bathrooms </span>
+                                                </div>
+                                                <div id='footer_content'>
+                                                    <RiParkingBoxLine size={25} />
+                                                    <span className='text_footer'> 2 Parking </span>
+                                                </div>
 
-                                                </div>
-                                                <div className='footer_body'>
-                                                    <div id='footer_content'>
-                                                        <FiCloudDrizzle size={22} />
-                                                        <p className='text_footer'> 4 Bathrooms </p>
-                                                    </div>
-                                                    <div id='footer_content'>
-                                                        <RiParkingBoxLine size={22} />
-                                                        <p className='text_footer'> 2 Parking </p>
-                                                    </div>
-
-                                                </div>
-                                            </Card.Footer>
-                                        </Card.Body>
-                                    </div>
-                                </Card>
-                            </div>
-                            <div id='prop_cards_left'>
-                                <Card id='main_prop_card'>
-                                    <div>
-                                        <Card.Img variant="top" id='prop_card_img' src={cardImg} />
-                                    </div>
-                                    <div>
-                                        <Card.Body>
-                                            <button className='prop_top_button'>
-                                                Feature
-                                            </button>
-                                            <button className='prop_top_likebutton'>
-                                                <AiOutlineHeart size={25} />
-                                            </button>
-                                            <button className='prop_down_button'>
-                                                Sell
-                                            </button>
-                                            <p className='prop_down_text'>
-                                                $1,999,000 / USD
-                                            </p>
-                                            <div>
-                                                <div id='prop_card_mainbody'>
-                                                    <BiHomeSmile size={18} />
-                                                    <p className='text_mainbody'> Home </p>
-                                                </div>
-                                                <div id='card_middletext'>
-                                                    <h6>
-                                                        Luxury villa in Rego Park
-                                                    </h6>
-                                                    <p>
-                                                        California City, CA, USA
-                                                    </p>
-                                                </div>
                                             </div>
-                                            <Card.Footer id='card_footer'>
-                                                <div className='footer_body'>
-                                                    <div id='footer_content'>
-                                                        <RiHotelBedLine size={22} />
-                                                        <p className='text_footer'> 3 Bedrooms </p>
-                                                    </div>
-                                                    <div id='footer_content'>
-                                                        <RiBuilding3Line size={22} />
-                                                        <p className='text_footer'> 1200 Sqft </p>
-                                                    </div>
+                                        </Card.Footer>
+                                    </Card.Body>
+                                </div>
+                            </Card>
+                            <Card id='main_prop_card'>
+                                <div>
+                                    <Card.Img variant="top" id='prop_card_img' src={cardImg} />
+                                </div>
+                                <div>
+                                    <Card.Body id='main_card_body'>
+                                        <span className='prop_feature'>
+                                            Feature
+                                        </span>
+                                        <span className='prop_like'>
+                                            <AiOutlineHeart size={25} />
+                                        </span>
+                                        <span className='prop_sell'>
+                                            Sell
+                                        </span>
+                                        <span className='prop_price'>
+                                            $1,999,000 / USD
+                                        </span>
 
-                                                </div>
-                                                <div className='footer_body'>
-                                                    <div id='footer_content'>
-                                                        <FiCloudDrizzle size={22} />
-                                                        <p className='text_footer'> 4 Bathrooms </p>
-                                                    </div>
-                                                    <div id='footer_content'>
-                                                        <RiParkingBoxLine size={22} />
-                                                        <p className='text_footer'> 2 Parking </p>
-                                                    </div>
-
-                                                </div>
-                                            </Card.Footer>
-                                        </Card.Body>
-                                    </div>
-                                </Card>
-                                <Card id='main_prop_card'>
-                                    <div>
-                                        <Card.Img variant="top" id='prop_card_img' src={cardImg} />
-                                    </div>
-                                    <div>
-                                        <Card.Body>
-                                            <button className='prop_top_button'>
-                                                Feature
-                                            </button>
-                                            <button className='prop_top_likebutton'>
-                                                <AiOutlineHeart size={25} />
-                                            </button>
-                                            <button className='prop_down_button'>
-                                                Sell
-                                            </button>
-                                            <p className='prop_down_text'>
-                                                $1,999,000 / USD
-                                            </p>
-
-                                            <div>
-                                                <div id='prop_card_mainbody'>
-                                                    <BiHomeSmile size={18} />
-                                                    <p className='text_mainbody'> Home </p>
-                                                </div>
-                                                <div id='card_middletext'>
-                                                    <h6>
-                                                        Luxury villa in Rego Park
-                                                    </h6>
-                                                    <p>
-                                                        California City, CA, USA
-                                                    </p>
-                                                </div>
+                                        <div>
+                                            <div id='prop_card_mainbody'>
+                                                <BiHomeSmile size={23} />
+                                                <span className='body_title'> House </span>
                                             </div>
-                                            <Card.Footer id='card_footer'>
-                                                <div className='footer_body'>
-                                                    <div id='footer_content'>
-                                                        <RiHotelBedLine size={22} />
-                                                        <p className='text_footer'> 3 Bedrooms </p>
-                                                    </div>
-                                                    <div id='footer_content'>
-                                                        <RiBuilding3Line size={22} />
-                                                        <p className='text_footer'> 1200 Sqft </p>
-                                                    </div>
-
-                                                </div>
-                                                <div className='footer_body'>
-                                                    <div id='footer_content'>
-                                                        <FiCloudDrizzle size={22} />
-                                                        <p className='text_footer'> 4 Bathrooms </p>
-                                                    </div>
-                                                    <div id='footer_content'>
-                                                        <RiParkingBoxLine size={22} />
-                                                        <p className='text_footer'> 2 Parking </p>
-                                                    </div>
-
-                                                </div>
-                                            </Card.Footer>
-                                        </Card.Body>
-
-
-                                    </div>
-                                </Card>
-                                <Card id='main_prop_card'>
-                                    <div>
-                                        <Card.Img variant="top" id='prop_card_img' src={cardImg} />
-                                    </div>
-                                    <div>
-                                        <Card.Body>
-                                            <button className='prop_top_button'>
-                                                Feature
-                                            </button>
-                                            <button className='prop_top_likebutton'>
-                                                <AiOutlineHeart size={25} />
-                                            </button>
-                                            <button className='prop_down_button'>
-                                                Sell
-                                            </button>
-                                            <p className='prop_down_text'>
-                                                $1,999,000 / USD
-                                            </p>
-
-                                            <div>
-                                                <div id='prop_card_mainbody'>
-                                                    <BiHomeSmile size={18} />
-                                                    <p className='text_mainbody'> Home </p>
-                                                </div>
-                                                <div id='card_middletext'>
-                                                    <h6>
-                                                        Luxury villa in Rego Park
-                                                    </h6>
-                                                    <p>
-                                                        California City, CA, USA
-                                                    </p>
-                                                </div>
+                                            <div id='prop_card_middletext'>
+                                                <span>
+                                                    Luxury villa in Rego Park
+                                                </span>
+                                                <p>
+                                                    California City, CA, USA
+                                                </p>
                                             </div>
-                                            <Card.Footer id='card_footer'>
-                                                <div className='footer_body'>
-                                                    <div id='footer_content'>
-                                                        <RiHotelBedLine size={22} />
-                                                        <p className='text_footer'> 3 Bedrooms </p>
-                                                    </div>
-                                                    <div id='footer_content'>
-                                                        <RiBuilding3Line size={22} />
-                                                        <p className='text_footer'> 1200 Sqft </p>
-                                                    </div>
-
+                                        </div>
+                                        <Card.Footer id='prop_card_footer'>
+                                            <div className='footer_body'>
+                                                <div id='footer_content'>
+                                                    <RiHotelBedLine size={25} />
+                                                    <span className='text_footer'> 3 Bedrooms </span>
                                                 </div>
-                                                <div className='footer_body'>
-                                                    <div id='footer_content'>
-                                                        <FiCloudDrizzle size={22} />
-                                                        <p className='text_footer'> 4 Bathrooms </p>
-                                                    </div>
-                                                    <div id='footer_content'>
-                                                        <RiParkingBoxLine size={22} />
-                                                        <p className='text_footer'> 2 Parking </p>
-                                                    </div>
-
+                                                <div id='footer_content'>
+                                                    <RiBuilding3Line size={25} />
+                                                    <span className='text_footer'> 1200 Sqft </span>
                                                 </div>
-                                            </Card.Footer>
-                                        </Card.Body>
-                                    </div>
-                                </Card>
-                            </div>
+
+                                            </div>
+                                            <div className='footer_body'>
+                                                <div id='footer_content'>
+                                                    <FiCloudDrizzle size={25} />
+                                                    <span className='text_footer'> 4 Bathrooms </span>
+                                                </div>
+                                                <div id='footer_content'>
+                                                    <RiParkingBoxLine size={25} />
+                                                    <span className='text_footer'> 2 Parking </span>
+                                                </div>
+
+                                            </div>
+                                        </Card.Footer>
+                                    </Card.Body>
+                                </div>
+                            </Card>
+                            <Card id='main_prop_card'>
+                                <div>
+                                    <Card.Img variant="top" id='prop_card_img' src={cardImg} />
+                                </div>
+                                <div>
+                                    <Card.Body id='main_card_body'>
+                                        <span className='prop_feature'>
+                                            Feature
+                                        </span>
+                                        <span className='prop_like'>
+                                            <AiOutlineHeart size={25} />
+                                        </span>
+                                        <span className='prop_sell'>
+                                            Sell
+                                        </span>
+                                        <span className='prop_price'>
+                                            $1,999,000 / USD
+                                        </span>
+
+                                        <div>
+                                            <div id='prop_card_mainbody'>
+                                                <BiHomeSmile size={23} />
+                                                <span className='body_title'> House </span>
+                                            </div>
+                                            <div id='prop_card_middletext'>
+                                                <span>
+                                                    Luxury villa in Rego Park
+                                                </span>
+                                                <p>
+                                                    California City, CA, USA
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <Card.Footer id='prop_card_footer'>
+                                            <div className='footer_body'>
+                                                <div id='footer_content'>
+                                                    <RiHotelBedLine size={25} />
+                                                    <span className='text_footer'> 3 Bedrooms </span>
+                                                </div>
+                                                <div id='footer_content'>
+                                                    <RiBuilding3Line size={25} />
+                                                    <span className='text_footer'> 1200 Sqft </span>
+                                                </div>
+
+                                            </div>
+                                            <div className='footer_body'>
+                                                <div id='footer_content'>
+                                                    <FiCloudDrizzle size={25} />
+                                                    <span className='text_footer'> 4 Bathrooms </span>
+                                                </div>
+                                                <div id='footer_content'>
+                                                    <RiParkingBoxLine size={25} />
+                                                    <span className='text_footer'> 2 Parking </span>
+                                                </div>
+
+                                            </div>
+                                        </Card.Footer>
+                                    </Card.Body>
+                                </div>
+                            </Card>
+
+                        </div>
+                        <div id='prop_cards_right'>
+                        <Card id='main_prop_card'>
+                                <div>
+                                    <Card.Img variant="top" id='prop_card_img' src={cardImg} />
+                                </div>
+                                <div>
+                                    <Card.Body id='main_card_body'>
+                                        <span className='prop_feature'>
+                                            Feature
+                                        </span>
+                                        <span className='prop_like'>
+                                            <AiOutlineHeart size={25} />
+                                        </span>
+                                        <span className='prop_sell'>
+                                            Sell
+                                        </span>
+                                        <span className='prop_price'>
+                                            $1,999,000 / USD
+                                        </span>
+
+                                        <div>
+                                            <div id='prop_card_mainbody'>
+                                                <BiHomeSmile size={23} />
+                                                <span className='body_title'> House </span>
+                                            </div>
+                                            <div id='prop_card_middletext'>
+                                                <span>
+                                                    Luxury villa in Rego Park
+                                                </span>
+                                                <p>
+                                                    California City, CA, USA
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <Card.Footer id='prop_card_footer'>
+                                            <div className='footer_body'>
+                                                <div id='footer_content'>
+                                                    <RiHotelBedLine size={25} />
+                                                    <span className='text_footer'> 3 Bedrooms </span>
+                                                </div>
+                                                <div id='footer_content'>
+                                                    <RiBuilding3Line size={25} />
+                                                    <span className='text_footer'> 1200 Sqft </span>
+                                                </div>
+
+                                            </div>
+                                            <div className='footer_body'>
+                                                <div id='footer_content'>
+                                                    <FiCloudDrizzle size={25} />
+                                                    <span className='text_footer'> 4 Bathrooms </span>
+                                                </div>
+                                                <div id='footer_content'>
+                                                    <RiParkingBoxLine size={25} />
+                                                    <span className='text_footer'> 2 Parking </span>
+                                                </div>
+
+                                            </div>
+                                        </Card.Footer>
+                                    </Card.Body>
+                                </div>
+                            </Card>
+                            <Card id='main_prop_card'>
+                                <div>
+                                    <Card.Img variant="top" id='prop_card_img' src={cardImg} />
+                                </div>
+                                <div>
+                                    <Card.Body id='main_card_body'>
+                                        <span className='prop_feature'>
+                                            Feature
+                                        </span>
+                                        <span className='prop_like'>
+                                            <AiOutlineHeart size={25} />
+                                        </span>
+                                        <span className='prop_sell'>
+                                            Sell
+                                        </span>
+                                        <span className='prop_price'>
+                                            $1,999,000 / USD
+                                        </span>
+
+                                        <div>
+                                            <div id='prop_card_mainbody'>
+                                                <BiHomeSmile size={23} />
+                                                <span className='body_title'> House </span>
+                                            </div>
+                                            <div id='prop_prop_card_middletext'>
+                                                <span>
+                                                    Luxury villa in Rego Park
+                                                </span>
+                                                <p>
+                                                    California City, CA, USA
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <Card.Footer id='prop_card_footer'>
+                                            <div className='footer_body'>
+                                                <div id='footer_content'>
+                                                    <RiHotelBedLine size={25} />
+                                                    <span className='text_footer'> 3 Bedrooms </span>
+                                                </div>
+                                                <div id='footer_content'>
+                                                    <RiBuilding3Line size={25} />
+                                                    <span className='text_footer'> 1200 Sqft </span>
+                                                </div>
+
+                                            </div>
+                                            <div className='footer_body'>
+                                                <div id='footer_content'>
+                                                    <FiCloudDrizzle size={25} />
+                                                    <span className='text_footer'> 4 Bathrooms </span>
+                                                </div>
+                                                <div id='footer_content'>
+                                                    <RiParkingBoxLine size={25} />
+                                                    <span className='text_footer'> 2 Parking </span>
+                                                </div>
+
+                                            </div>
+                                        </Card.Footer>
+                                    </Card.Body>
+                                </div>
+                            </Card>
+                            <Card id='main_prop_card'>
+                                <div>
+                                    <Card.Img variant="top" id='prop_card_img' src={cardImg} />
+                                </div>
+                                <div>
+                                    <Card.Body id='main_card_body'>
+                                        <span className='prop_feature'>
+                                            Feature
+                                        </span>
+                                        <span className='prop_like'>
+                                            <AiOutlineHeart size={25} />
+                                        </span>
+                                        <span className='prop_sell'>
+                                            Sell
+                                        </span>
+                                        <span className='prop_price'>
+                                            $1,999,000 / USD
+                                        </span>
+
+                                        <div>
+                                            <div id='prop_card_mainbody'>
+                                                <BiHomeSmile size={23} />
+                                                <span className='body_title'> House </span>
+                                            </div>
+                                            <div id='prop_card_middletext'>
+                                                <span>
+                                                    Luxury villa in Rego Park
+                                                </span>
+                                                <p>
+                                                    California City, CA, USA
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <Card.Footer id='prop_card_footer'>
+                                            <div className='footer_body'>
+                                                <div id='footer_content'>
+                                                    <RiHotelBedLine size={25} />
+                                                    <span className='text_footer'> 3 Bedrooms </span>
+                                                </div>
+                                                <div id='footer_content'>
+                                                    <RiBuilding3Line size={25} />
+                                                    <span className='text_footer'> 1200 Sqft </span>
+                                                </div>
+
+                                            </div>
+                                            <div className='footer_body'>
+                                                <div id='footer_content'>
+                                                    <FiCloudDrizzle size={25} />
+                                                    <span className='text_footer'> 4 Bathrooms </span>
+                                                </div>
+                                                <div id='footer_content'>
+                                                    <RiParkingBoxLine size={25} />
+                                                    <span className='text_footer'> 2 Parking </span>
+                                                </div>
+
+                                            </div>
+                                        </Card.Footer>
+                                    </Card.Body>
+                                </div>
+                            </Card> 
                         </div>
                     </div>
                 </div>

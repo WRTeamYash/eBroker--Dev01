@@ -1,0 +1,109 @@
+#articles {
+  height: 74vh;
+}
+#main_articleSec {
+  margin: 0 8% 0 8%;
+}
+.article_headline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+}
+.rightside_article_headlin {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}
+#article_cards {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+#article_main_card{
+    width: 22rem;
+    border-radius: 12px;
+    background-color: var(--primary-background);
+}
+#article_card_img{
+    border-radius: 10px;
+    width: 20rem;
+    height: 190px;
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+    left: 1rem;
+}
+
+#apartment_tag{
+    background: var(--primary-color);
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 1;
+    border: none;
+    /* cursor: pointer; */
+    color: #ffffff;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+#article_card_body{
+    padding-top: 25px;
+}
+#article_card_headline{
+    font-size: 16px;
+    font-weight: bold
+}
+div#article_card_headline p {
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #282f39c2;
+    opacity: 1;
+    margin: 0;
+  }
+  #readmore_article{
+    margin-top: 20px;
+  }
+  .readmore{
+    color: #000;
+    background-color: var(--primary-background);
+    border: none;
+  }
+  
+#article_card_footer {
+  padding: 20px;
+  background-color: var(--primary-background);
+  border-radius: 0px 0 15px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.admin {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #f4f5f4;
+  outline: 1px solid #000;
+}
+.article_footer_text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.byadmin {
+  font-size: 16px;
+  font-weight: 600;
+  color: #282f39;
+  font-family: var(--primary-font);
+}
+div#article_card_footer .article_footer_text p {
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #282f39c2;
+  opacity: 1;
+  margin: 0;
+}

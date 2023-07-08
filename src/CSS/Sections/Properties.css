@@ -24,7 +24,7 @@
   align-items: flex-start;
   gap: 10px;
   position: relative;
-  left: 120px;
+  /* left: 120px; */
   /* margin-right: 20px; */
 }
 #text_prop_header {
@@ -33,14 +33,19 @@
 #prop_cards {
   position: relative;
   top: 150px;
-  right: 60px;
+  /* right: 60px; */
 }
 .cards_sec {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 20px;
 }
 #prop_cards_left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#prop_cards_right {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -48,7 +53,7 @@
 #main_prop_card {
   display: flex;
   flex-direction: row;
-  width: 700px;
+  width: 790px;
   height: 222px;
   border-radius: 12px;
 }
@@ -56,10 +61,13 @@
   height: 220px;
   width: auto;
   border-radius: 12px 0 0 12px;
+}#main_card_body{
+  width: 23vw ;
 }
-.prop_top_button {
+.prop_feature{
   background: var(--primary-color);
   border-radius: 4px;
+  padding: 5px;
   opacity: 1;
   border: none;
   cursor: pointer;
@@ -68,55 +76,88 @@
   left: 10px;
   top: 9px;
 }
-.prop_top_likebutton {
+.prop_like {
   /* background: var(--primary-color) ;     */
   background: white;
   height: 35px;
   border-radius: 50%;
   opacity: 1;
+  padding: 5px;
   border: none;
   cursor: pointer;
   color: #000;
   position: absolute;
   top: 10px;
-  right: 52%;
+  right: 56%;
 }
-.prop_down_button {
+.prop_sell {
   background: var(--primary-sell);
   border-radius: 5px;
   opacity: 1;
   border: none;
   cursor: pointer;
   color: #ffffff;
+  left: 10px;
+  padding: 5px 12px 5px 14px;
   position: absolute;
   left: 10px;
   bottom: 9px;
   width: 60px;
 }
-.prop_down_text {
+.prop_price {
   position: absolute;
   top: 85%;
-  right: 52%;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
-    var(--unnamed-font-size-16) / var(--unnamed-line-spacing-22)
-    var(--unnamed-font-family-manrope);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--card-color-ffffff);
-  /* text-align: right; */
+  right: 56%;
   font: normal normal bold 16px/22px Manrope;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
 }
+
 #prop_card_mainbody {
-  margin-top: 5px;
   display: flex;
-  /* align-items: baseline; */
+  align-items: center;
   flex-direction: row;
   gap: 5px;
   height: 25px;
-  width: 70px;
+  width: 100%;
   color: var(--primary-color);
+}
+.body_title{
+  font-size: 18px;
+}
+
+#prop_card_footer {
+    padding: 16px 0 !important;
+    border-radius: 0 0 12px 12px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: var(--primary-font);
+    color: #282F39;
+}
+div#prop_card_middletext p{
+  font: var(--unnamed-font-style-normal) normal normal 14px/19px var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal normal 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #282F39C2;
+  opacity: 1;
+}
+div#prop_card_footer.card-footer {
+  padding: 0 16px;
+  border-radius: 0 0 12px 12px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#card_middletext{
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
 }
 .hovertext2 {
   position: relative;
