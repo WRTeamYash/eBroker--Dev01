@@ -1,0 +1,116 @@
+#footer {
+  background-color: #282f39;
+  height: 60vh;
+  color: white;
+}
+#main_footer {
+  margin: 0 8% 0 8%;
+}
+#footer_logo_section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer_content {
+  position: relative;
+  top: 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 14rem;
+}
+.footer_span {
+  font-size: 14px;
+  color: #ffffffc2;
+}
+.footer_span_value {
+  margin-left: 28px;
+}
+#follow_us {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#footer_prop_section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 20rem;
+}
+#footer_headlines {
+  margin-top: 5px;
+  font-size: 26px;
+}
+.prop_links {
+  font-size: 16px;
+  color: #ffffffc2;
+  cursor: pointer;
+}
+.prop_links:hover {
+  text-decoration: underline;
+}
+#footer_page_section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 20rem;
+  }
+.page_links {
+  font-size: 16px;
+  color: #ffffffc2;
+  cursor: pointer;
+}
+.page_links:hover {
+  text-decoration: underline;
+}
+#footer_download_section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 20rem;
+  }
+.download_app_desc{
+    margin-top: 15px;
+    color: #ffffffc2;
+}
+.download_app_platforms{
+    border: 1px solid #ffffffc2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 5rem;
+}
+#playstore_logo{
+    margin: 10px 0 10px 15px;
+}
+.playstore_desc{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#span_headline{
+        font-size: 14px;
+}
+.span_title{
+    font-size: 26px;
+    font-weight: 600;
+}
+#appstore_logo{
+  margin: 10px 0 10px 15px;
+}
+.appstore_desc{
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.rights_footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4%;
+}
+hr{
+  width: 100%;
+}

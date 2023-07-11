@@ -1,0 +1,236 @@
+
+
+
+/* hero section responsive css */
+
+
+
+
+
+
+/* @media only screen and (max-width: 2560px) {
+    #mainheroImage {
+      width: 2560px;
+      background-size: 2560px 900px;
+      overflow: hidden;
+    }
+  } */
+/* @media only screen and (max-width: 2160px) {
+    #mainheroImage {
+      width: 2160px;
+      background-size: 2160px 900px;
+      overflow: hidden;
+    }
+  } */
+  @media only screen and (max-width: 1800px) {
+    #mainheroImage {
+      width: 1800px;
+      background-size: 1800px 900px;
+      overflow: hidden;
+    }
+  }
+  @media only screen and (max-width: 1440px) {
+    #mainheroImage {
+      width: 1440px;
+      background-size: 1440px 900px;
+      overflow: hidden;
+    }
+  }
+  @media only screen and (max-width: 1399px) {
+    .filter {
+      left: 70%;
+    }
+    .find {
+      left: 72%;
+    }
+  }
+  @media only screen and (max-width: 1300px) {
+    #mainheroImage {
+      width: 1300px;
+      background-size: 1300px 900px;
+      overflow: hidden;
+    }
+  }
+  @media only screen and (max-width: 1299px) {
+    .filter {
+      left: 65%;
+    }
+    .find {
+      left: 67%;
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    #tabs {
+      display: flex !important;
+      flex-direction: row !important;
+      /* width: 50%; */
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    #mainheroImage {
+      width: 1024px;
+      background-size: 1098px 900px;
+      overflow: hidden;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    #mainheroImage {
+      width: 768px;
+      background-size: 768px 900px;
+      overflow: hidden;
+    }
+    .view_prop {
+      width: 50%;
+    }
+    #searchbuttoon {
+      width: 85%;
+    }
+    .filter {
+      left: 55%;
+    }
+    .find {
+      left: 56%;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    #mainheroImage {
+      width: 425px;
+      background-size: 425px 900px;
+    }
+    #herotexts {
+      position: relative;
+      margin-left: 10%;
+      top: 200px;
+    }
+    #priceteg {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    #hero_headlines {
+      font-size: 40px;
+    }
+    #specifiaction {
+      font-size: 17px;
+      line-height: 25px;
+    }
+    .view_prop {
+      width: 50%;
+    }
+    #searchcard {
+      height: 17vh;
+      width: 95.8%;
+      border-radius: 0px 0px 8px 8px;
+      /* background-color: aqua;/ */
+    }
+    .searchinput {
+      width: 100%;
+    }
+    #leftside-buttons {
+      display: flex;
+      flex-direction: row;
+      margin-top: 60px;
+      justify-content: space-evenly;
+    }
+  
+    .filter {
+      left: 0;
+      width: 164px;
+    }
+    .find {
+      left: 0;
+      /* top: 52px; */
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    #mainheroImage {
+      width: 375px;
+      background-size: cover;
+      height: 65vh;
+    }
+    #herotexts {
+      position: relative;
+      margin-left: 10%;
+      top: 150px;
+    }
+    #priceteg {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    #hero_headlines {
+      font-size: 40px;
+    }
+    #specifiaction {
+      font-size: 17px;
+      line-height: 25px;
+    }
+    .view_prop {
+      width: 70%;
+    }
+    #tabs {
+      display: flex !important;
+      flex-direction: row !important;
+    }
+    #searchbox {
+      /* position: relative; */
+      position: absolute;
+      bottom: 19vh;
+      z-index: 5;
+    }
+    #sellbutton {
+      width: 146px;
+    }
+    #rentbutton {
+      width: 146px;
+    }
+    #searchcard {
+      height: 19vh;
+      width: 98.8%;
+      border-radius: 0px 0px 8px 8px;
+      /* background-color: aqua; */
+    }
+    .searchinput {
+      width: 100%;
+    }
+    #leftside-buttons {
+      display: flex;
+      flex-direction: row;
+      margin-top: 60px;
+      justify-content: space-evenly;
+    }
+  
+    .filter {
+      left: 0;
+      width: 135px;
+    }
+    .find {
+      left: 0;
+      width: 135px;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    #mainheroImage {
+      width: 360px;
+      background-size: cover;
+      /* height: vh; */
+    }
+    #searchbox {
+      /* position: relative; */
+      position: absolute;
+      bottom: 14vh;
+      z-index: 5;
+    }
+    #sellbutton {
+      width: 146px;
+    }
+    #rentbutton {
+      width: 145px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    #mainheroImage {
+      width: 320px;
+      background-size: cover;
+      /* height: vh; */
+    }
+  }
+  

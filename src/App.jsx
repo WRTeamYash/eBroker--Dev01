@@ -1,6 +1,8 @@
 // import './App.css';
-import Home from './Components/HomePage';
 import Nav from "./Components/Navbar/Nav";
+import Home from './Components/HomePage/Home';
+import FooterSection from "./Components/Footer/FooterSection";
+
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
 
       <Nav />
       <Home />
+      <FooterSection/>
     </>
   );
 }
